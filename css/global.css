@@ -1,0 +1,79 @@
+h1 {
+    font-size: 600%;
+    line-height: 200%;
+}
+
+h2 {
+    font-size: 300%;
+}
+
+h3 {
+    font-size: 250%;
+}
+
+p {
+    font-size: 200%;
+}
+
+.blue_em em, .blue_strong strong {
+	color: #1167bd;
+	font-style: normal;
+}
+
+.blue_em em {
+  font-weight: normal;
+}
+
+.blue_strong strong {
+  font-weight: bold;
+}
+
+.green_em em {
+  color: #71bc48;
+  font-style: normal;
+
+}
+
+.paragraph .col-sm-12 img {
+	margin: 0 auto;
+}
+
+#landingpage .font_medium {
+  font-size: 100%;
+}
+
+#landingpage .font_xx_small {
+  font-size: 40%;
+}
+
+#landingpage .font_x_small {
+  font-size: 60%;
+}
+
+#landingpage .font_small p {
+  font-size: 175%;
+}
+
+#landingpage .font_small h1 {
+  font-size: 400%;
+}
+
+#landingpage .font_small  h2 {
+  font-size: 300%;
+}
+
+#landingpage .font_small  h3 {
+  font-size: 200%;
+}
+
+#landingpage .font_large {
+  font-size: 120%;
+}
+
+#landingpage .font_x_large {
+  font-size: 140%;
+}
+
+#landingpage .font_xx_large {
+  font-size: 160%;
+}

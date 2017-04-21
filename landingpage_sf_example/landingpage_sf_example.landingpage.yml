@@ -1,0 +1,329 @@
+langcode: en
+title: 'S&Franchise'
+type: landingpage
+uid: '1'
+status: true
+promote: '1'
+field_landingpage_theme: landingpage_sf
+field_landingpage_paragraphs:
+    -
+        type: landingpage_textarea
+        field_landingpage_display: default
+        field_landingpage_skin:
+            - 'XXXL Paddings [xxxl_paddings]'
+            - 'Blue EM [blue_em]'
+            - 'color: #000000;'
+            - 'background-color: #FFFFFF;'
+        field_landingpage_textarea:
+            - { value: "<h1 class=\"text-align-center\">s<em>&amp;</em>franchise</h1>\r\n\r\n<h3 class=\"text-align-center\"><strong>Software development business as a service</strong></h3>\r\n\r\n<p class=\"text-align-center\">Open and grow your own software development company</p>\r\n", format: full_html }
+    -
+        type: landingpage_hero_image_textarea
+        field_landingpage_display: default
+        field_landingpage_image:
+            - { alt: '', title: '', width: '5460', height: '3561', image: development.jpg }
+        field_landingpage_skin:
+            - 'XXXL Paddings [xxxl_paddings]'
+    -
+        type: landingpage_textarea
+        field_landingpage_display: default
+        field_landingpage_textarea:
+            - { value: "<h3 class=\"text-align-center\">You are a...</h3>\r\n", format: full_html }
+    -
+        type: landingpage_grid
+        field_landingpage_display: three_columns
+        field_landingpage_grid:
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'Technology Expert', title: '', width: '525', height: '500', image: 1_1.png }], field_landingpage_skin: ['Font small [font_small]'], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><em><strong>Technology Expert</strong></em></p>\r\n\r\n<p class=\"text-align-center\">CTO, Software Architect or Engineer</p>\r\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'Design Expert', title: '', width: '521', height: '500', image: 1_2.png }], field_landingpage_skin: ['Font small [font_small]'], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><em><strong>Design Expert</strong></em></p>\r\n\r\n<p class=\"text-align-center\">UI/UX or Product Designer</p>\r\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'Management Expert', title: '', width: '500', height: '500', image: 1_3.png }], field_landingpage_skin: ['Font small [font_small]'], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><em><strong>Management Expert</strong></em></p>\r\n\r\n<p class=\"text-align-center\">Product Owner or Project Manager</p>\r\n", format: full_html }] }
+        field_landingpage_skin:
+            - 'Blue EM [blue_em]'
+    -
+        type: landingpage_textarea
+        field_landingpage_display: default
+        field_landingpage_textarea:
+            - { value: "<p class=\"text-align-center\">...who does great work, consistently bringing huge value to organizations, but...</p>\r\n", format: full_html }
+    -
+        type: landingpage_hero_image_textarea
+        field_landingpage_display: default
+        field_landingpage_image:
+            - { alt: '', title: '', width: '1008', height: '720', image: 1500.jpg }
+        field_landingpage_skin:
+            - 'XXXL Paddings [xxxl_paddings]'
+    -
+        type: landingpage_image_textarea
+        field_landingpage_display: default
+        field_landingpage_image:
+            - { alt: 'hit a wall', title: '', width: '333', height: '600', image: 2_1.png }
+        field_landingpage_skin:
+            - 'Blue EM [blue_em]'
+        field_landingpage_textarea:
+            - { value: "<p class=\"text-align-center\">…you feel as if you have hit a wall. You realize you need to scale, but</p>\r\n\r\n<p class=\"text-align-center\"><em>don’t know where to start?</em></p>\r\n", format: full_html }
+    -
+        type: landingpage_textarea
+        field_landingpage_display: default
+        field_landingpage_textarea:
+            - { value: "<h3 class=\"text-align-center\"><strong>You need an infrastructure that will help you...</strong></h3>\r\n", format: full_html }
+    -
+        type: landingpage_grid
+        field_landingpage_display: two_columns
+        field_landingpage_grid:
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'SAVE EFFORT', title: '', width: '400', height: '400', image: 3_1.png }], field_landingpage_textarea: [{ value: "<p><strong>SAVE EFFORT</strong> by guiding you how to build and grow a technology company</p>\n", format: basic_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'MAKE MONEY', title: '', width: '400', height: '400', image: 3_2.png }], field_landingpage_textarea: [{ value: "<p><strong>MAKE MONEY</strong> by monetizing your existing network</p>\n", format: basic_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'ENJOY WORK', title: '', width: '400', height: '400', image: 3_3.png }], field_landingpage_textarea: [{ value: "<p><strong>ENJOY WORK</strong> by focusing on what you do best, and minimizing the legwork</p>\n", format: basic_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'BECOME SUCCESSFUL', title: '', width: '400', height: '400', image: 3_4.png }], field_landingpage_textarea: [{ value: "<p><strong>BECOME SUCCESSFUL</strong> by building a company around your passion and expertise</p>\n", format: basic_html }] }
+        field_landingpage_skin:
+            - 'Blue STRONG [blue_strong]'
+            - 'Font small [font_small]'
+    -
+        type: landingpage_textarea
+        field_landingpage_display: default
+        field_landingpage_skin:
+            - 'Blue STRONG [blue_strong]'
+            - 'Blue EM [blue_em]'
+            - 'Font small [font_small]'
+        field_landingpage_textarea:
+            - { value: "<h1 class=\"text-align-center\">s<em>&amp;</em>franchise</h1>\n\n<p class=\"text-align-center\">We have a unique combination of <strong>BUSINESS</strong> knowledge and <strong>ENGINEERING</strong> resources that</p>\n\n<p class=\"text-align-center\">will help you become a software development entrepreneur.</p>\n", format: full_html }
+    -
+        type: landingpage_image
+        field_landingpage_display: default
+        field_landingpage_image:
+            - { alt: '', title: '', width: '745', height: '426', image: 4_1.png }
+    -
+        type: landingpage_textarea
+        field_landingpage_display: default
+        field_landingpage_skin:
+            - 'Font small [font_small]'
+        field_landingpage_textarea:
+            - { value: "<h1 class=\"text-align-center\">Business</h1>\r\n\r\n<p class=\"text-align-center\">Over the past ten years we have gained insights and</p>\r\n\r\n<p class=\"text-align-center\">experience that we can pass on to you.</p>\r\n", format: full_html }
+    -
+        type: landingpage_image
+        field_landingpage_display: default
+        field_landingpage_image:
+            - { alt: '', title: '', width: '494', height: '157', image: 5_1.png }
+    -
+        type: landingpage_grid
+        field_landingpage_display: three_columns
+        field_landingpage_grid:
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: Operations, title: '', width: '400', height: '400', image: 6_1.png }], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><em>Operations</em></p>\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: Marketing, title: '', width: '400', height: '400', image: 6_2.png }], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><em>Marketing</em></p>\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: Finance, title: '', width: '400', height: '400', image: 6_3.png }], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><em>Finance</em></p>\n", format: full_html }] }
+        field_landingpage_skin:
+            - 'Blue EM [blue_em]'
+    -
+        type: landingpage_textarea
+        field_landingpage_display: default
+        field_landingpage_textarea:
+            - { value: "<h2 class=\"text-align-center\">Operations</h2>\r\n", format: full_html }
+    -
+        type: landingpage_grid
+        field_landingpage_display: three_columns
+        field_landingpage_grid:
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: Legal, title: '', width: '400', height: '400', image: 7_1.png }], field_landingpage_textarea: [{ value: "<p><em>Legal</em></p>\n\n<ul>\n\t<li>How to register a new company</li>\n\t<li>What contracts to sign and when</li>\n\t<li>Secure business insurance to&nbsp;protect you</li>\n</ul>\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'File System', title: '', width: '400', height: '400', image: 7_2.png }], field_landingpage_textarea: [{ value: "<p><em>File System</em></p>\n\n<ul>\n\t<li>Organize shared access documents</li>\n\t<li>Choose the best file system platform for&nbsp;you</li>\n\t<li>Show you what to keep and where</li>\n\t<li>Help with permission levels</li>\n</ul>\n", format: basic_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'HR System', title: '', width: '400', height: '400', image: 7_3.png }], field_landingpage_textarea: [{ value: "<p><em>HR System</em></p>\n\n<ul>\n\t<li>Help you hire your first employee</li>\n\t<li>File the right documents</li>\n\t<li>Build an employee handbook</li>\n\t<li>Create job descriptions</li>\n\t<li>Develop performance metrics&nbsp;and training</li>\n</ul>\n", format: basic_html }] }
+        field_landingpage_skin:
+            - 'Blue EM [blue_em]'
+    -
+        type: landingpage_textarea
+        field_landingpage_display: default
+        field_landingpage_textarea:
+            - { value: "<h2 class=\"text-align-center\">Marketing</h2>\n", format: full_html }
+    -
+        type: landingpage_grid
+        field_landingpage_display: three_columns
+        field_landingpage_grid:
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'Marketing Plan', title: '', width: '400', height: '400', image: 8_1.png }], field_landingpage_textarea: [{ value: "<p><em>Marketing Plan</em></p>\n\n<ul>\n\t<li>Set up and execute a go to market strategy</li>\n\t<li>Set up a digital presence</li>\n\t<li>Identify promotional products to hand out</li>\n\t<li>Types of workshops you could teach</li>\n\t<li>Create your mission and vision statements</li>\n</ul>\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: Sales, title: '', width: '400', height: '400', image: 8_2.png }], field_landingpage_textarea: [{ value: "<p><em>Sales</em></p>\n\n<ul>\n\t<li>How to sell to both technical and&nbsp;non-technical decision makers</li>\n\t<li>When and where to network</li>\n\t<li>How to best utilize Linkedin</li>\n\t<li>How to sell to your existing network</li>\n</ul>\n", format: basic_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: CRM, title: '', width: '400', height: '400', image: 8_3.png }], field_landingpage_textarea: [{ value: "<p><em>CRM</em></p>\n\n<ul>\n\t<li>What platform to use</li>\n\t<li>How to set it up</li>\n\t<li>What information is relevant to store</li>\n\t<li>When to follow up with prospects</li>\n</ul>\n", format: basic_html }] }
+        field_landingpage_skin:
+            - 'Blue EM [blue_em]'
+    -
+        type: landingpage_textarea
+        field_landingpage_display: default
+        field_landingpage_textarea:
+            - { value: "<h2 class=\"text-align-center\">Finance</h2>\n", format: full_html }
+    -
+        type: landingpage_grid
+        field_landingpage_display: three_columns
+        field_landingpage_grid:
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'Operating Budget', title: '', width: '400', height: '400', image: 9_1.png }], field_landingpage_textarea: [{ value: "<p><em>Operating Budget</em></p>\n\n<ul>\n\t<li>Knowing monthly/yearly budget</li>\n\t<li>Knowing how much to charge for services</li>\n\t<li>When to put more money into marketing</li>\n</ul>\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: Accounting, title: '', width: '400', height: '400', image: 9_2.png }], field_landingpage_textarea: [{ value: "<p><em>Accounting</em></p>\n\n<ul>\n\t<li>Tax preparation</li>\n\t<li>Where to get a line of credit</li>\n\t<li>Advice on getting loans</li>\n\t<li>When to hire</li>\n</ul>\n", format: basic_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: Collections, title: '', width: '400', height: '400', image: 9_3.png }], field_landingpage_textarea: [{ value: "<p><em>Collections </em></p>\n\n<ul>\n\t<li>Best billing practices</li>\n\t<li>How to set the right expectations&nbsp;and get paid on time</li>\n\t<li>What to do in the rare event a&nbsp;client refuses to pay for services</li>\n</ul>\n", format: basic_html }] }
+        field_landingpage_skin:
+            - 'Blue EM [blue_em]'
+    -
+        type: landingpage_textarea
+        field_landingpage_display: default
+        field_landingpage_skin:
+            - 'Font small [font_small]'
+        field_landingpage_textarea:
+            - { value: "<h1 class=\"text-align-center\">Engineering</h1>\n\n<p class=\"text-align-center\">We offer a “Best in Class” Agile knowledge-sharing</p>\n\n<p class=\"text-align-center\">and collaboration environment for maximizing</p>\n\n<p class=\"text-align-center\">adaptability and business value.</p>\n", format: full_html }
+    -
+        type: landingpage_image
+        field_landingpage_display: default
+        field_landingpage_image:
+            - { alt: '', title: '', width: '494', height: '157', image: 5_1.png }
+    -
+        type: landingpage_grid
+        field_landingpage_display: three_columns
+        field_landingpage_grid:
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: People, title: '', width: '400', height: '400', image: 10_1.png }], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><em>People</em></p>\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: Process, title: '', width: '400', height: '400', image: 10_2.png }], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><em>Process</em></p>\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'Track Record', title: '', width: '400', height: '400', image: 10_3.png }], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><em>Track Record</em></p>\n", format: full_html }] }
+        field_landingpage_skin:
+            - 'Blue EM [blue_em]'
+    -
+        type: landingpage_textarea
+        field_landingpage_display: default
+        field_landingpage_textarea:
+            - { value: "<h2 class=\"text-align-center\">People</h2>\n", format: full_html }
+    -
+        type: landingpage_grid
+        field_landingpage_display: three_columns
+        field_landingpage_grid:
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: Technologies, title: '', width: '400', height: '400', image: 11_1.png }], field_landingpage_textarea: [{ value: "<p><em>Technologies </em></p>\n\n<ul>\n\t<li><strong>Front End</strong>: ES5/6, HTML, CSS, AngularJS,&nbsp;React/Redux, Vue.js, SVG</li>\n\t<li><strong>Back End</strong>: Node.js, Ruby on Rails, PHP,&nbsp;Python, Java, .NET, WordPress, Drupal</li>\n\t<li><strong>DevOps</strong>: AWS, Jenkins, automation</li>\n\t<li><strong>Mobile</strong>: Objective-C, Swift, React Native,&nbsp;Android/Java, Hybrid/Cordova</li>\n</ul>\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: Industries, title: '', width: '400', height: '400', image: 11_2.png }], field_landingpage_textarea: [{ value: "<p><em>Industries</em></p>\n\n<ul>\n\t<li>Pharma / Life Sciences</li>\n\t<li>Insurance</li>\n\t<li>Entertainment</li>\n\t<li>Marketing</li>\n\t<li>Finance</li>\n\t<li>E-commerce</li>\n\t<li>Transportation</li>\n\t<li>Portals</li>\n</ul>\n", format: basic_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: Numbers, title: '', width: '400', height: '400', image: 11_3.png }], field_landingpage_textarea: [{ value: "<p><em>Numbers </em><em> </em></p>\n\n<ul>\n\t<li>2 locations in US</li>\n\t<li>3 locations in Europe</li>\n\t<li>50+ employees</li>\n\t<li>5+ years of software development&nbsp;experience for 75% of our team</li>\n</ul>\n", format: basic_html }] }
+        field_landingpage_skin:
+            - 'Blue EM [blue_em]'
+    -
+        type: landingpage_textarea
+        field_landingpage_display: default
+        field_landingpage_textarea:
+            - { value: "<h2 class=\"text-align-center\">Process</h2>\n", format: full_html }
+    -
+        type: landingpage_grid
+        field_landingpage_display: three_columns
+        field_landingpage_grid:
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'Agile Methodology', title: '', width: '400', height: '400', image: 12_1.png }], field_landingpage_textarea: [{ value: "<p><em>Agile Methodology</em> <em> </em></p>\n\n<ul>\n\t<li>Highly collaborative</li>\n\t<li>Daily stand-ups</li>\n\t<li>Delivery in 2-week iterations (sprints)</li>\n\t<li>Learning through retrospective/post-mortem</li>\n\t<li>Sprint 0 discovery iteration to set the right&nbsp;expectations early</li>\n\t<li>Frequent demos via screen-sharing</li>\n</ul>\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'Project Management', title: '', width: '400', height: '400', image: 12_2.png }], field_landingpage_textarea: [{ value: "<p><em>Project Management</em></p>\n\n<ul>\n\t<li>Scrum masters</li>\n\t<li>Refined and tested PM practice</li>\n\t<li>Each engineer is paired with a PM to make&nbsp;sure all bases are covered</li>\n\t<li>Direct access to each delivery team member</li>\n\t<li>Bringing everyone into the same room,&nbsp;physical or virtual, facilitating collaboration</li>\n\t<li>Full transparency</li>\n</ul>\n", format: basic_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: QA, title: '', width: '400', height: '400', image: 12_3.png }], field_landingpage_textarea: [{ value: "<p><em>QA</em> <em> </em><em> </em></p>\n\n<ul>\n\t<li>Our secret sauce to achieve quality</li>\n\t<li>QA department is 1/3 of&nbsp;all engineers</li>\n\t<li>QA automation (Cucumber, Jenkins)</li>\n\t<li>Functional</li>\n\t<li>Load testing</li>\n\t<li>Layout testing (browsers, pixel-perfect)</li>\n</ul>\n", format: basic_html }] }
+        field_landingpage_skin:
+            - 'Blue EM [blue_em]'
+    -
+        type: landingpage_textarea
+        field_landingpage_display: default
+        field_landingpage_textarea:
+            - { value: "<h2 class=\"text-align-center\">Track Record</h2>\n", format: full_html }
+    -
+        type: landingpage_grid
+        field_landingpage_display: four_columns
+        field_landingpage_grid:
+            - { type: landingpage_textarea, field_landingpage_display: clean, field_landingpage_textarea: [{ value: "<h1 class=\"text-align-center\"><strong>10+</strong></h1>\r\n\r\n<p class=\"text-align-center\">Years on the market</p>\r\n", format: full_html }] }
+            - { type: landingpage_textarea, field_landingpage_display: clean, field_landingpage_textarea: [{ value: "<h1 class=\"text-align-center\"><strong>200+</strong></h1>\r\n\r\n<p class=\"text-align-center\">Projects released</p>\r\n", format: full_html }] }
+            - { type: landingpage_textarea, field_landingpage_display: clean, field_landingpage_textarea: [{ value: "<h1 class=\"text-align-center\"><strong>160,000+</strong></h1>\r\n\r\n<p class=\"text-align-center\">Hours worked</p>\r\n", format: full_html }] }
+            - { type: landingpage_textarea, field_landingpage_display: clean, field_landingpage_textarea: [{ value: "<h1 class=\"text-align-center\"><strong>13,000+</strong></h1>\r\n\r\n<p class=\"text-align-center\">Hours spent on our largest project</p>\r\n", format: full_html }] }
+        field_landingpage_skin:
+            - 'Blue STRONG [blue_strong]'
+            - 'Font small [font_small]'
+    -
+        type: landingpage_textarea
+        field_landingpage_display: default
+        field_landingpage_textarea:
+            - { value: "<h2 class=\"text-align-center\">Clients</h2>\n", format: full_html }
+    -
+        type: landingpage_grid
+        field_landingpage_display: four_columns
+        field_landingpage_grid:
+            - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_1.png }] }
+            - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_2.png }] }
+            - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_3.png }] }
+            - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_4.png }] }
+            - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_5.png }] }
+            - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_6.jpg }] }
+            - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_7.png }] }
+            - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_8.jpg }] }
+            - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_9.jpg }] }
+            - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_10.jpg }] }
+            - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_11.png }] }
+            - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_12.png }] }
+            - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_13.png }] }
+            - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_14.png }] }
+            - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_15.png }] }
+            - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_16.jpg }] }
+    -
+        type: landingpage_textarea
+        field_landingpage_display: default
+        field_landingpage_textarea:
+            - { value: "<h2 class=\"text-align-center\"><strong>What is our process?</strong></h2>\n", format: full_html }
+    -
+        type: landingpage_grid
+        field_landingpage_display: six_columns
+        field_landingpage_grid:
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: You, title: '', width: '400', height: '400', image: 14_1.png }], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><strong>You</strong></p>\n\n<p class=\"text-align-center\">Engage a client</p>\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: Client, title: '', width: '400', height: '400', image: 14_2.png }], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><strong>Client</strong></p>\n\n<p class=\"text-align-center\">Shares project&nbsp;information</p>\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'S&F', title: '', width: '400', height: '400', image: 14_3.png }], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><strong>S&amp;F</strong></p>\n\n<p class=\"text-align-center\">Works with you to estimate&nbsp;and build a proposal</p>\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: Client, title: '', width: '400', height: '400', image: 14_4.png }], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><strong>Client</strong></p>\r\n\r\n<p class=\"text-align-center\">Approves and signs a&nbsp;contract with you</p>\r\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'S&F', title: '', width: '400', height: '400', image: 14_5.png }], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><strong>S&amp;F</strong></p>\r\n\r\n<p class=\"text-align-center\">Delivers the project&nbsp;under your oversight</p>\r\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: You, title: '', width: '400', height: '400', image: 14_6.png }], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><strong>You</strong></p>\r\n\r\n<p class=\"text-align-center\">Collect money</p>\r\n", format: full_html }] }
+        field_landingpage_skin:
+            - 'Blue STRONG [blue_strong]'
+            - 'Font small [font_small]'
+    -
+        type: landingpage_textarea
+        field_landingpage_display: default
+        field_landingpage_textarea:
+            - { value: "<h2 class=\"text-align-center\"><strong>What is your role?</strong></h2>\n", format: full_html }
+    -
+        type: landingpage_grid
+        field_landingpage_display: three_columns
+        field_landingpage_grid:
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: Client, title: '', width: '400', height: '400', image: 14_4.png }], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><strong>Account Manager</strong></p>\n\n<p class=\"text-align-center\">Interact with client and&nbsp;own the relationship</p>\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_skin: ['Font large [font_large]'], field_landingpage_textarea: [{ value: "<h1 class=\"text-align-center\">&nbsp;</h1>\r\n\r\n<h1 class=\"text-align-center\">+</h1>\r\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'S&F', title: '', width: '400', height: '400', image: 14_5.png }], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><strong>Product Owner</strong></p>\n\n<p class=\"text-align-center\">Guide the delivery team to build state of the art&nbsp;software and web applications</p>\n", format: full_html }] }
+        field_landingpage_skin:
+            - 'Blue STRONG [blue_strong]'
+            - 'Font small [font_small]'
+    -
+        type: landingpage_textarea
+        field_landingpage_display: default
+        field_landingpage_textarea:
+            - { value: "<h2 class=\"text-align-center\"><strong>What is our role?</strong></h2>\n", format: full_html }
+    -
+        type: landingpage_grid
+        field_landingpage_display: three_columns
+        field_landingpage_grid:
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'Front office advisor', title: '', width: '400', height: '400', image: 15_1.png }], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><strong>Front office advisor</strong></p>\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_skin: ['Font large [font_large]'], field_landingpage_textarea: [{ value: "<h1 class=\"text-align-center\">&nbsp;</h1>\r\n\r\n<h1 class=\"text-align-center\">+</h1>\r\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'Delivery team', title: '', width: '400', height: '400', image: 15_2.png }], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><strong>Delivery team</strong>​​​​​​​</p>\n", format: full_html }] }
+        field_landingpage_skin:
+            - 'Blue STRONG [blue_strong]'
+            - 'Font small [font_small]'
+    -
+        type: landingpage_textarea
+        field_landingpage_display: default
+        field_landingpage_textarea:
+            - { value: "<h2 class=\"text-align-center\"><strong>Earning Potential</strong></h2>\n\n<p class=\"text-align-center\">We only profit when you make a profit.</p>\n", format: full_html }
+    -
+        type: landingpage_grid
+        field_landingpage_display: six_columns
+        field_landingpage_grid:
+            - { type: landingpage_textarea, field_landingpage_display: default }
+            - { type: landingpage_textarea, field_landingpage_display: clean, field_landingpage_textarea: [{ value: "<h1 class=\"text-align-center\"><strong>$125&nbsp;</strong><sub>/h</sub></h1>\n\n<p class=\"text-align-center\">You charge clients</p>\n", format: full_html }] }
+            - { type: landingpage_textarea, field_landingpage_display: clean, field_landingpage_textarea: [{ value: "<h1 class=\"text-align-center\"><strong>-</strong></h1>\n", format: full_html }] }
+            - { type: landingpage_textarea, field_landingpage_display: clean, field_landingpage_textarea: [{ value: "<h1 class=\"text-align-center\"><strong>$70 </strong><sub>/h</sub></h1>\n\n<p class=\"text-align-center\">Your development costs</p>\n", format: full_html }] }
+            - { type: landingpage_textarea, field_landingpage_display: clean, field_landingpage_textarea: [{ value: "<h1 class=\"text-align-center\"><strong>=</strong></h1>\n\n<p class=\"text-align-center\">&nbsp;</p>\n", format: full_html }] }
+            - { type: landingpage_textarea, field_landingpage_display: clean, field_landingpage_skin: ['Green EM [green_em]'], field_landingpage_textarea: [{ value: "<h1 class=\"text-align-center\"><em><strong>$55 </strong><sub>/h</sub></em></h1>\r\n\r\n<p class=\"text-align-center\">Your profit</p>\r\n", format: full_html }] }
+        field_landingpage_skin:
+            - 'Font small [font_small]'
+    -
+        type: landingpage_textarea
+        field_landingpage_display: default
+        field_landingpage_skin:
+            - 'Font small [font_small]'
+        field_landingpage_textarea:
+            - { value: "<p class=\"text-align-center\">* rates may vary based on individual situations *</p>\r\n", format: full_html }
+    -
+        type: landingpage_textarea
+        field_landingpage_display: default
+        field_landingpage_textarea:
+            - { value: "<h2 class=\"text-align-center\"><strong>Want to learn more?</strong></h2>\n", format: full_html }
+    -
+        type: landingpage_grid
+        field_landingpage_display: two_columns
+        field_landingpage_grid:
+            - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '1200', height: '400', image: 16_1.png }], field_landingpage_skin: ['border-right: 2px solid #000;'] }
+            - { type: landingpage_textarea, field_landingpage_display: clean, field_landingpage_skin: ['padding-left: 4em;'], field_landingpage_textarea: [{ value: "<p><strong>Tom Guidotti</strong></p>\r\n\r\n<p>VP of Business Development</p>\r\n\r\n<p>484.682.5151</p>\r\n\r\n<p><a href=\"mailto:tom@speedandfunction.com\">tom@speedandfunction.com</a></p>\r\n", format: full_html }] }
+        field_landingpage_skin:
+            - 'border-right: 2px solid #000;'
+            - 'XXL Paddings [xxl_paddings]'

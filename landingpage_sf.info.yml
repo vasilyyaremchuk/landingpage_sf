@@ -1,0 +1,19 @@
+name: Landingpage S&Franchise
+type: theme
+description: Theme for S&Franchise LandingPage
+package: LandingPage
+core: 8.x
+libraries:
+  - landingpage_sf/global-styling
+      
+base theme: landingpage_bootstrap
+
+regions:
+  content: Content
+
+landingpage: 1.x
+
+landingpage classes:
+  blue_em: Blue EM 
+  blue_strong: Blue STRONG 
+  green_em: Green EM 
