@@ -34,7 +34,7 @@ p {
 
 }
 
-.paragraph .col-sm-12 img {
+.paragraph img {
 	margin: 0 auto;
 }
 
@@ -76,4 +76,66 @@ p {
 
 #landingpage .font_xx_large {
   font-size: 160%;
+}
+
+.left_border .row {
+  background: url("images/divider.png") center repeat-y;
+}
+
+.left_border a {
+  font-size: 80%;
+}
+
+.left_border .paragraph--type--landingpage-textarea.paragraph--view-mode--clean {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+@media only screen and (max-width: 768px) {
+
+.left_border .row {
+  background: none;
+}
+
+.fix_mobile_align {
+  text-align: center;
+}
+
+.fix_mobile h1 {
+      font-size: 300%;
+      line-height: 100%;
+  }
+
+.fix_mobile h2 {
+      font-size: 150%;
+  }
+
+.fix_mobile h3 {
+      font-size: 125%;
+  }
+
+.fix_mobile p {
+      font-size: 100%;
+  }
+
+/*  #landingpage .font_small p {
+    font-size: 90%;
+  }
+
+  #landingpage .font_small h1 {
+    font-size: 200%;
+  }
+
+  #landingpage .font_small  h2 {
+    font-size: 150%;
+  }
+
+  #landingpage .font_small  h3 {
+    font-size: 100%;
+  }*/
+
+  .paragraph img {
+    padding: 0px 100px 0px 100px;
+  }  
+
 }

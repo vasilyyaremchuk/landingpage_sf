@@ -14,15 +14,9 @@ field_landingpage_paragraphs:
             - 'Blue EM [blue_em]'
             - 'color: #000000;'
             - 'background-color: #FFFFFF;'
+            - 'Fix Mobile [fix_mobile]'
         field_landingpage_textarea:
             - { value: "<h1 class=\"text-align-center\">s<em>&amp;</em>franchise</h1>\r\n\r\n<h3 class=\"text-align-center\"><strong>Software development business as a service</strong></h3>\r\n\r\n<p class=\"text-align-center\">Open and grow your own software development company</p>\r\n", format: full_html }
-    -
-        type: landingpage_hero_image_textarea
-        field_landingpage_display: default
-        field_landingpage_image:
-            - { alt: '', title: '', width: '1530', height: '300', image: divider.jpg }
-        field_landingpage_skin:
-            - 'XXL Paddings [xxl_paddings]'
     -
         type: landingpage_textarea
         field_landingpage_display: default
@@ -41,15 +35,10 @@ field_landingpage_paragraphs:
     -
         type: landingpage_textarea
         field_landingpage_display: default
-        field_landingpage_textarea:
-            - { value: "<p class=\"text-align-center\">...who does great work, consistently bringing huge value to organizations, but...</p>\r\n", format: full_html }
-    -
-        type: landingpage_hero_image_textarea
-        field_landingpage_display: default
-        field_landingpage_image:
-            - { alt: '', title: '', width: '1530', height: '300', image: divider.jpg }
         field_landingpage_skin:
-            - 'XXL Paddings [xxl_paddings]'
+            - 'padding-bottom: 16em;'
+        field_landingpage_textarea:
+            - { value: "<p class=\"text-align-center\">...who does great work, consistently bringing huge value to organizations, but...</p>\n", format: full_html }
     -
         type: landingpage_image_textarea
         field_landingpage_display: default
@@ -57,15 +46,9 @@ field_landingpage_paragraphs:
             - { alt: 'hit a wall', title: '', width: '333', height: '600', image: 2_1.png }
         field_landingpage_skin:
             - 'Blue EM [blue_em]'
+            - 'padding-bottom: 16em;'
         field_landingpage_textarea:
             - { value: "<p class=\"text-align-center\">…you feel as if you have hit a wall. You realize you need to scale, but</p>\r\n\r\n<p class=\"text-align-center\"><em>don’t know where to start?</em></p>\r\n", format: full_html }
-    -
-        type: landingpage_hero_image_textarea
-        field_landingpage_display: default
-        field_landingpage_image:
-            - { alt: '', title: '', width: '1530', height: '300', image: divider.jpg }
-        field_landingpage_skin:
-            - 'XXL Paddings [xxl_paddings]'
     -
         type: landingpage_textarea
         field_landingpage_display: default
@@ -82,13 +65,7 @@ field_landingpage_paragraphs:
         field_landingpage_skin:
             - 'Blue STRONG [blue_strong]'
             - 'Font small [font_small]'
-    -
-        type: landingpage_hero_image_textarea
-        field_landingpage_display: default
-        field_landingpage_image:
-            - { alt: '', title: '', width: '1530', height: '300', image: divider.jpg }
-        field_landingpage_skin:
-            - 'XXL Paddings [xxl_paddings]'
+            - 'padding-bottom: 16em;'
     -
         type: landingpage_textarea
         field_landingpage_display: default
@@ -103,13 +80,8 @@ field_landingpage_paragraphs:
         field_landingpage_display: default
         field_landingpage_image:
             - { alt: '', title: '', width: '745', height: '426', image: 4_1.png }
-    -
-        type: landingpage_hero_image_textarea
-        field_landingpage_display: default
-        field_landingpage_image:
-            - { alt: '', title: '', width: '1530', height: '300', image: divider.jpg }
         field_landingpage_skin:
-            - 'XXL Paddings [xxl_paddings]'
+            - 'padding-bottom: 16em;'
     -
         type: landingpage_textarea
         field_landingpage_display: default
@@ -131,13 +103,7 @@ field_landingpage_paragraphs:
             - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: Finance, title: '', width: '400', height: '400', image: 6_3.png }], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><em>Finance</em></p>\n", format: full_html }] }
         field_landingpage_skin:
             - 'Blue EM [blue_em]'
-    -
-        type: landingpage_hero_image_textarea
-        field_landingpage_display: default
-        field_landingpage_image:
-            - { alt: '', title: '', width: '1530', height: '300', image: divider.jpg }
-        field_landingpage_skin:
-            - 'XXL Paddings [xxl_paddings]'
+            - 'padding-bottom: 16em;'
     -
         type: landingpage_textarea
         field_landingpage_display: default
@@ -152,13 +118,7 @@ field_landingpage_paragraphs:
             - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'HR System', title: '', width: '400', height: '400', image: 7_3.png }], field_landingpage_textarea: [{ value: "<p><em>HR System</em></p>\n\n<ul>\n\t<li>Help you hire your first employee</li>\n\t<li>File the right documents</li>\n\t<li>Build an employee handbook</li>\n\t<li>Create job descriptions</li>\n\t<li>Develop performance metrics&nbsp;and training</li>\n</ul>\n", format: basic_html }] }
         field_landingpage_skin:
             - 'Blue EM [blue_em]'
-    -
-        type: landingpage_hero_image_textarea
-        field_landingpage_display: default
-        field_landingpage_image:
-            - { alt: '', title: '', width: '1530', height: '300', image: divider.jpg }
-        field_landingpage_skin:
-            - 'XXL Paddings [xxl_paddings]'
+            - 'padding-bottom: 16em;'
     -
         type: landingpage_textarea
         field_landingpage_display: default
@@ -173,13 +133,7 @@ field_landingpage_paragraphs:
             - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: CRM, title: '', width: '400', height: '400', image: 8_3.png }], field_landingpage_textarea: [{ value: "<p><em>CRM</em></p>\n\n<ul>\n\t<li>What platform to use</li>\n\t<li>How to set it up</li>\n\t<li>What information is relevant to store</li>\n\t<li>When to follow up with prospects</li>\n</ul>\n", format: basic_html }] }
         field_landingpage_skin:
             - 'Blue EM [blue_em]'
-    -
-        type: landingpage_hero_image_textarea
-        field_landingpage_display: default
-        field_landingpage_image:
-            - { alt: '', title: '', width: '1530', height: '300', image: divider.jpg }
-        field_landingpage_skin:
-            - 'XXL Paddings [xxl_paddings]'
+            - 'padding-bottom: 16em;'
     -
         type: landingpage_textarea
         field_landingpage_display: default
@@ -194,13 +148,7 @@ field_landingpage_paragraphs:
             - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: Collections, title: '', width: '400', height: '400', image: 9_3.png }], field_landingpage_textarea: [{ value: "<p><em>Collections </em></p>\n\n<ul>\n\t<li>Best billing practices</li>\n\t<li>How to set the right expectations&nbsp;and get paid on time</li>\n\t<li>What to do in the rare event a&nbsp;client refuses to pay for services</li>\n</ul>\n", format: basic_html }] }
         field_landingpage_skin:
             - 'Blue EM [blue_em]'
-    -
-        type: landingpage_hero_image_textarea
-        field_landingpage_display: default
-        field_landingpage_image:
-            - { alt: '', title: '', width: '1530', height: '300', image: divider.jpg }
-        field_landingpage_skin:
-            - 'XXL Paddings [xxl_paddings]'
+            - 'padding-bottom: 16em;'
     -
         type: landingpage_textarea
         field_landingpage_display: default
@@ -222,13 +170,7 @@ field_landingpage_paragraphs:
             - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'Track Record', title: '', width: '400', height: '400', image: 10_3.png }], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><em>Track Record</em></p>\n", format: full_html }] }
         field_landingpage_skin:
             - 'Blue EM [blue_em]'
-    -
-        type: landingpage_hero_image_textarea
-        field_landingpage_display: default
-        field_landingpage_image:
-            - { alt: '', title: '', width: '1530', height: '300', image: divider.jpg }
-        field_landingpage_skin:
-            - 'XXL Paddings [xxl_paddings]'
+            - 'padding-bottom: 16em;'
     -
         type: landingpage_textarea
         field_landingpage_display: default
@@ -243,13 +185,7 @@ field_landingpage_paragraphs:
             - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: Numbers, title: '', width: '400', height: '400', image: 11_3.png }], field_landingpage_textarea: [{ value: "<p><em>Numbers </em><em> </em></p>\n\n<ul>\n\t<li>2 locations in US</li>\n\t<li>3 locations in Europe</li>\n\t<li>50+ employees</li>\n\t<li>5+ years of software development&nbsp;experience for 75% of our team</li>\n</ul>\n", format: basic_html }] }
         field_landingpage_skin:
             - 'Blue EM [blue_em]'
-    -
-        type: landingpage_hero_image_textarea
-        field_landingpage_display: default
-        field_landingpage_image:
-            - { alt: '', title: '', width: '1530', height: '300', image: divider.jpg }
-        field_landingpage_skin:
-            - 'XXL Paddings [xxl_paddings]'
+            - 'padding-bottom: 16em;'
     -
         type: landingpage_textarea
         field_landingpage_display: default
@@ -264,13 +200,7 @@ field_landingpage_paragraphs:
             - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: QA, title: '', width: '400', height: '400', image: 12_3.png }], field_landingpage_textarea: [{ value: "<p><em>QA</em> <em> </em><em> </em></p>\n\n<ul>\n\t<li>Our secret sauce to achieve quality</li>\n\t<li>QA department is 1/3 of&nbsp;all engineers</li>\n\t<li>QA automation (Cucumber, Jenkins)</li>\n\t<li>Functional</li>\n\t<li>Load testing</li>\n\t<li>Layout testing (browsers, pixel-perfect)</li>\n</ul>\n", format: basic_html }] }
         field_landingpage_skin:
             - 'Blue EM [blue_em]'
-    -
-        type: landingpage_hero_image_textarea
-        field_landingpage_display: default
-        field_landingpage_image:
-            - { alt: '', title: '', width: '1530', height: '300', image: divider.jpg }
-        field_landingpage_skin:
-            - 'XXL Paddings [xxl_paddings]'
+            - 'padding-bottom: 16em;'
     -
         type: landingpage_textarea
         field_landingpage_display: default
@@ -288,13 +218,7 @@ field_landingpage_paragraphs:
             - 'Blue STRONG [blue_strong]'
             - 'Font small [font_small]'
             - 'XXXL Paddings [xxxl_paddings]'
-    -
-        type: landingpage_hero_image_textarea
-        field_landingpage_display: default
-        field_landingpage_image:
-            - { alt: '', title: '', width: '1530', height: '300', image: divider.jpg }
-        field_landingpage_skin:
-            - 'XXL Paddings [xxl_paddings]'
+            - 'padding-bottom: 16em;'
     -
         type: landingpage_textarea
         field_landingpage_display: default
@@ -324,13 +248,8 @@ field_landingpage_paragraphs:
             - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_14.png }] }
             - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_15.png }] }
             - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_16.jpg }] }
-    -
-        type: landingpage_hero_image_textarea
-        field_landingpage_display: default
-        field_landingpage_image:
-            - { alt: '', title: '', width: '1530', height: '300', image: divider.jpg }
         field_landingpage_skin:
-            - 'XXL Paddings [xxl_paddings]'
+            - 'padding-bottom: 16em;'
     -
         type: landingpage_textarea
         field_landingpage_display: default
@@ -350,13 +269,7 @@ field_landingpage_paragraphs:
             - 'Blue STRONG [blue_strong]'
             - 'Font small [font_small]'
             - 'XXL Paddings [xxl_paddings]'
-    -
-        type: landingpage_hero_image_textarea
-        field_landingpage_display: default
-        field_landingpage_image:
-            - { alt: '', title: '', width: '1530', height: '300', image: divider.jpg }
-        field_landingpage_skin:
-            - 'XXL Paddings [xxl_paddings]'
+            - 'padding-bottom: 16em;'
     -
         type: landingpage_textarea
         field_landingpage_display: default
@@ -373,13 +286,7 @@ field_landingpage_paragraphs:
             - 'Blue STRONG [blue_strong]'
             - 'Font small [font_small]'
             - 'XXL Paddings [xxl_paddings]'
-    -
-        type: landingpage_hero_image_textarea
-        field_landingpage_display: default
-        field_landingpage_image:
-            - { alt: '', title: '', width: '1530', height: '300', image: divider.jpg }
-        field_landingpage_skin:
-            - 'XXL Paddings [xxl_paddings]'
+            - 'padding-bottom: 16em;'
     -
         type: landingpage_textarea
         field_landingpage_display: default
@@ -396,13 +303,7 @@ field_landingpage_paragraphs:
             - 'Blue STRONG [blue_strong]'
             - 'Font small [font_small]'
             - 'XXL Paddings [xxl_paddings]'
-    -
-        type: landingpage_hero_image_textarea
-        field_landingpage_display: default
-        field_landingpage_image:
-            - { alt: '', title: '', width: '1530', height: '300', image: divider.jpg }
-        field_landingpage_skin:
-            - 'XXL Paddings [xxl_paddings]'
+            - 'padding-bottom: 16em;'
     -
         type: landingpage_textarea
         field_landingpage_display: default
@@ -426,15 +327,9 @@ field_landingpage_paragraphs:
         field_landingpage_display: default
         field_landingpage_skin:
             - 'Font small [font_small]'
+            - 'padding-bottom: 16em;'
         field_landingpage_textarea:
-            - { value: "<p class=\"text-align-center\">* rates may vary based on individual situations *</p>\r\n", format: full_html }
-    -
-        type: landingpage_hero_image_textarea
-        field_landingpage_display: default
-        field_landingpage_image:
-            - { alt: '', title: '', width: '1530', height: '300', image: divider.jpg }
-        field_landingpage_skin:
-            - 'XXL Paddings [xxl_paddings]'
+            - { value: "<p class=\"text-align-center\">* rates may vary based on individual situations *</p>\n", format: full_html }
     -
         type: landingpage_textarea
         field_landingpage_display: default
@@ -444,8 +339,9 @@ field_landingpage_paragraphs:
         type: landingpage_grid
         field_landingpage_display: two_columns
         field_landingpage_grid:
-            - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '1200', height: '400', image: 16_1.png }], field_landingpage_skin: ['border-right: 2px solid #000;'] }
-            - { type: landingpage_textarea, field_landingpage_display: clean, field_landingpage_skin: ['padding-left: 4em;'], field_landingpage_textarea: [{ value: "<p><strong>Tom Guidotti</strong></p>\r\n\r\n<p>VP of Business Development</p>\r\n\r\n<p>484.682.5151</p>\r\n\r\n<p><a href=\"mailto:tom@speedandfunction.com\">tom@speedandfunction.com</a></p>\r\n", format: full_html }] }
+            - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '1200', height: '400', image: 16_1.png }] }
+            - { type: landingpage_textarea, field_landingpage_display: clean, field_landingpage_textarea: [{ value: "<p><strong>Tom Guidotti</strong></p>\r\n\r\n<p>VP of Business Development</p>\r\n\r\n<p>484.682.5151</p>\r\n\r\n<p><a href=\"mailto:tom@speedandfunction.com\">tom@speedandfunction.com</a></p>\r\n", format: full_html }] }
         field_landingpage_skin:
-            - 'border-right: 2px solid #000;'
             - 'XXL Paddings [xxl_paddings]'
+            - 'Fix Mobile Align [fix_mobile_align]'
+            - 'Left Border [left_border]'

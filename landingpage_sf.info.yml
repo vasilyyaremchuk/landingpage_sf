@@ -16,4 +16,7 @@ landingpage: 1.x
 landingpage classes:
   blue_em: Blue EM 
   blue_strong: Blue STRONG 
-  green_em: Green EM 
+  green_em: Green EM
+  left_border: Left Border
+  fix_mobile: Fix Mobile
+  fix_mobile_align: Fix Mobile Align 
