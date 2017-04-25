@@ -344,15 +344,15 @@ field_landingpage_paragraphs:
         type: landingpage_grid
         field_landingpage_display: six_columns
         field_landingpage_grid:
-            - { type: landingpage_textarea, field_landingpage_display: default }
-            - { type: landingpage_textarea, field_landingpage_display: clean, field_landingpage_textarea: [{ value: "<h1 class=\"text-align-center\"><strong>$125&nbsp;</strong><sub>/h</sub></h1>\n\n<p class=\"text-align-center\">You charge clients</p>\n", format: full_html }] }
+            - { type: landingpage_textarea, field_landingpage_display: clean, field_landingpage_textarea: [{ value: "<h1 class=\"text-align-center\"><strong>$125</strong><span>per&nbsp;hour</span></h1>\n\n<p class=\"text-align-center\">You charge clients</p>\n", format: full_html }] }
             - { type: landingpage_textarea, field_landingpage_display: clean, field_landingpage_textarea: [{ value: "<h1 class=\"text-align-center\"><strong>-</strong></h1>\n", format: full_html }] }
-            - { type: landingpage_textarea, field_landingpage_display: clean, field_landingpage_textarea: [{ value: "<h1 class=\"text-align-center\"><strong>$70 </strong><sub>/h</sub></h1>\n\n<p class=\"text-align-center\">Your development costs</p>\n", format: full_html }] }
+            - { type: landingpage_textarea, field_landingpage_display: clean, field_landingpage_textarea: [{ value: "<h1 class=\"text-align-center\"><strong>$70</strong><span>per&nbsp;hour</span></h1>\n\n<p class=\"text-align-center\">Your development costs</p>\n", format: full_html }] }
             - { type: landingpage_textarea, field_landingpage_display: clean, field_landingpage_textarea: [{ value: "<h1 class=\"text-align-center\"><strong>=</strong></h1>\n\n<p class=\"text-align-center\">&nbsp;</p>\n", format: full_html }] }
-            - { type: landingpage_textarea, field_landingpage_display: clean, field_landingpage_skin: ['Green EM [green_em]'], field_landingpage_textarea: [{ value: "<h1 class=\"text-align-center\"><em><strong>$55 </strong><sub>/h</sub></em></h1>\r\n\r\n<p class=\"text-align-center\">Your profit</p>\r\n", format: full_html }] }
+            - { type: landingpage_textarea, field_landingpage_display: clean, field_landingpage_skin: ['Green EM [green_em]'], field_landingpage_textarea: [{ value: "<h1 class=\"text-align-center\"><em><strong>$55</strong><span>per&nbsp;hour</span></em></h1>\n\n<p class=\"text-align-center\">Your profit</p>\n", format: full_html }] }
         field_landingpage_skin:
             - 'Font small [font_small]'
             - 'XXXL Paddings [xxxl_paddings]'
+            - 'Big STRONG [big_strong]'
     -
         type: landingpage_textarea
         field_landingpage_display: default

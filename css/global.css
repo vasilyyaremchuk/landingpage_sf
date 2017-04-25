@@ -42,6 +42,10 @@ p {
   font-size: 150%;
 }
 
+.big_strong h1 span {
+  font-size: 50%;
+}
+
 .paragraph img {
 	margin: 0 auto;
 }
