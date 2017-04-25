@@ -36,7 +36,10 @@ p {
 .green_em em {
   color: #71bc48;
   font-style: normal;
+}
 
+.big_strong h1 strong {
+  font-size: 150%;
 }
 
 .paragraph img {
