@@ -100,7 +100,7 @@ field_landingpage_paragraphs:
         type: landingpage_image
         field_landingpage_display: default
         field_landingpage_image:
-            - { alt: '', title: '', width: '863', height: '639', image: 4_1.png }
+            - { alt: '', title: '', width: '863', height: '639', image: 4_1.jpg }
         field_landingpage_skin:
             - 'padding-bottom: 16em;'
     -
