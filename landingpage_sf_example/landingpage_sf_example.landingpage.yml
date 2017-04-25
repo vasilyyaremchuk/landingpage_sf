@@ -7,6 +7,21 @@ promote: '1'
 field_landingpage_theme: landingpage_sf
 field_landingpage_paragraphs:
     -
+        type: landingpage_textfield_links
+        field_landingpage_display: default
+        field_landingpage_links:
+            - { uri: 'internal:#whom', title: 'For whom?', options: {  } }
+            - { uri: 'internal:#solution', title: Solution, options: {  } }
+            - { uri: 'internal:#business', title: Business, options: {  } }
+            - { uri: 'internal:#engineering', title: Engineering, options: {  } }
+            - { uri: 'internal:#track-record', title: 'Track record', options: {  } }
+            - { uri: 'internal:#process', title: Process, options: {  } }
+            - { uri: 'internal:#contact', title: 'Contact Us', options: {  } }
+        field_landingpage_skin:
+            - 'background: #eee;'
+            - 'border-bottom: #ccc solid 1px;'
+            - 'Zerro (0) Paddings [z_paddings]'
+    -
         type: landingpage_textarea
         field_landingpage_display: default
         field_landingpage_skin:
@@ -20,15 +35,18 @@ field_landingpage_paragraphs:
     -
         type: landingpage_textarea
         field_landingpage_display: default
+        field_landingpage_skin:
+            - 'padding-top: 4em;'
         field_landingpage_textarea:
-            - { value: "<h3 class=\"text-align-center\">You are a...</h3>\r\n", format: full_html }
+            - { value: "<h3 class=\"text-align-center\">You are a...</h3>\n", format: full_html }
+        field_paragraph_anchor: whom
     -
         type: landingpage_grid
         field_landingpage_display: three_columns
         field_landingpage_grid:
-            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'Technology Expert', title: '', width: '525', height: '500', image: 1_1.png }], field_landingpage_skin: ['Font small [font_small]'], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><em><strong>Technology Expert</strong></em></p>\r\n\r\n<p class=\"text-align-center\">CTO, Software Architect or Engineer</p>\r\n", format: full_html }] }
-            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'Design Expert', title: '', width: '521', height: '500', image: 1_2.png }], field_landingpage_skin: ['Font small [font_small]'], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><em><strong>Design Expert</strong></em></p>\r\n\r\n<p class=\"text-align-center\">UI/UX or Product Designer</p>\r\n", format: full_html }] }
-            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'Management Expert', title: '', width: '500', height: '500', image: 1_3.png }], field_landingpage_skin: ['Font small [font_small]'], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><em><strong>Management Expert</strong></em></p>\r\n\r\n<p class=\"text-align-center\">Product Owner or Project Manager</p>\r\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'Technology Expert', title: '', width: '600', height: '600', image: 1_1.png }], field_landingpage_skin: ['Font small [font_small]'], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><em><strong>Technology Expert</strong></em></p>\n\n<p class=\"text-align-center\">CTO, Software Architect or Engineer</p>\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'Design Expert', title: '', width: '600', height: '600', image: 1_2.png }], field_landingpage_skin: ['Font small [font_small]'], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><em><strong>Design Expert</strong></em></p>\n\n<p class=\"text-align-center\">UI/UX or Product Designer</p>\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'Management Expert', title: '', width: '600', height: '600', image: 1_3.png }], field_landingpage_skin: ['Font small [font_small]'], field_landingpage_textarea: [{ value: "<p class=\"text-align-center\"><em><strong>Management Expert</strong></em></p>\n\n<p class=\"text-align-center\">Product Owner or Project Manager</p>\n", format: full_html }] }
         field_landingpage_skin:
             - 'Blue EM [blue_em]'
             - 'XL Paddings [xl_paddings]'
@@ -45,15 +63,18 @@ field_landingpage_paragraphs:
         field_landingpage_image:
             - { alt: 'hit a wall', title: '', width: '333', height: '600', image: 2_1.png }
         field_landingpage_skin:
-            - 'Blue EM [blue_em]'
+            - 'Blue STRONG [blue_strong]'
             - 'padding-bottom: 16em;'
         field_landingpage_textarea:
-            - { value: "<p class=\"text-align-center\">…you feel as if you have hit a wall. You realize you need to scale, but</p>\r\n\r\n<p class=\"text-align-center\"><em>don’t know where to start?</em></p>\r\n", format: full_html }
+            - { value: "<p class=\"text-align-center\">…you feel as if you have hit a wall. You realize you need to scale, but</p>\r\n\r\n<p class=\"text-align-center\"><strong>don’t know where to start?</strong></p>\r\n", format: full_html }
     -
         type: landingpage_textarea
         field_landingpage_display: default
+        field_landingpage_skin:
+            - 'padding-top: 4em;'
         field_landingpage_textarea:
-            - { value: "<h3 class=\"text-align-center\"><strong>You need an infrastructure that will help you...</strong></h3>\r\n", format: full_html }
+            - { value: "<h3 class=\"text-align-center\"><strong>You need an infrastructure that will help you...</strong></h3>\n", format: full_html }
+        field_paragraph_anchor: solution
     -
         type: landingpage_grid
         field_landingpage_display: two_columns
@@ -79,7 +100,7 @@ field_landingpage_paragraphs:
         type: landingpage_image
         field_landingpage_display: default
         field_landingpage_image:
-            - { alt: '', title: '', width: '745', height: '426', image: 4_1.png }
+            - { alt: '', title: '', width: '863', height: '639', image: 4_1.png }
         field_landingpage_skin:
             - 'padding-bottom: 16em;'
     -
@@ -87,8 +108,10 @@ field_landingpage_paragraphs:
         field_landingpage_display: default
         field_landingpage_skin:
             - 'Font small [font_small]'
+            - 'padding-top: 4em;'
         field_landingpage_textarea:
-            - { value: "<h1 class=\"text-align-center\">Business</h1>\r\n\r\n<p class=\"text-align-center\">Over the past ten years we have gained insights and</p>\r\n\r\n<p class=\"text-align-center\">experience that we can pass on to you.</p>\r\n", format: full_html }
+            - { value: "<h1 class=\"text-align-center\">Business</h1>\n\n<p class=\"text-align-center\">Over the past ten years we have gained insights and</p>\n\n<p class=\"text-align-center\">experience that we can pass on to you.</p>\n", format: full_html }
+        field_paragraph_anchor: business
     -
         type: landingpage_image
         field_landingpage_display: default
@@ -154,8 +177,10 @@ field_landingpage_paragraphs:
         field_landingpage_display: default
         field_landingpage_skin:
             - 'Font small [font_small]'
+            - 'padding-top: 4em;'
         field_landingpage_textarea:
             - { value: "<h1 class=\"text-align-center\">Engineering</h1>\n\n<p class=\"text-align-center\">We offer a “Best in Class” Agile knowledge-sharing</p>\n\n<p class=\"text-align-center\">and collaboration environment for maximizing</p>\n\n<p class=\"text-align-center\">adaptability and business value.</p>\n", format: full_html }
+        field_paragraph_anchor: engineering
     -
         type: landingpage_image
         field_landingpage_display: default
@@ -204,8 +229,11 @@ field_landingpage_paragraphs:
     -
         type: landingpage_textarea
         field_landingpage_display: default
+        field_landingpage_skin:
+            - 'padding-top: 4em;'
         field_landingpage_textarea:
             - { value: "<h2 class=\"text-align-center\">Track Record</h2>\n", format: full_html }
+        field_paragraph_anchor: track-record
     -
         type: landingpage_grid
         field_landingpage_display: four_columns
@@ -230,7 +258,7 @@ field_landingpage_paragraphs:
         field_landingpage_grid:
             - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_1.png }] }
             - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_2.png }] }
-            - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_3.png }] }
+            - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_3.jpg }] }
             - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_4.png }] }
             - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_5.png }] }
             - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '400', height: '400', image: 13_6.jpg }] }
@@ -253,8 +281,11 @@ field_landingpage_paragraphs:
     -
         type: landingpage_textarea
         field_landingpage_display: default
+        field_landingpage_skin:
+            - 'padding-top: 4em;'
         field_landingpage_textarea:
             - { value: "<h2 class=\"text-align-center\"><strong>What is our process?</strong></h2>\n", format: full_html }
+        field_paragraph_anchor: process
     -
         type: landingpage_grid
         field_landingpage_display: six_columns
@@ -345,3 +376,4 @@ field_landingpage_paragraphs:
             - 'XXL Paddings [xxl_paddings]'
             - 'Fix Mobile Align [fix_mobile_align]'
             - 'Left Border [left_border]'
+        field_paragraph_anchor: contact

@@ -24,6 +24,11 @@ p {
   font-weight: normal;
 }
 
+.blue_em li {
+  font-size: 120%;
+  line-height: 200%;
+}
+
 .blue_strong strong {
   font-weight: bold;
 }
@@ -89,6 +94,18 @@ p {
 .left_border .paragraph--type--landingpage-textarea.paragraph--view-mode--clean {
   padding-left: 4em;
   padding-right: 4em;
+}
+
+.paragraph--type--landingpage-textfield-links {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+}
+
+
+ul.navbar-nav li:last-child a {
+   color: #1167bd;
 }
 
 @media only screen and (max-width: 768px) {
