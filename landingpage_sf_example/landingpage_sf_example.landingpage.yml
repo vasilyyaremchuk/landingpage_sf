@@ -8,7 +8,7 @@ field_landingpage_theme: landingpage_sf
 field_landingpage_paragraphs:
     -
         type: landingpage_textfield_links
-        field_landingpage_display: default
+        field_landingpage_display: right
         field_landingpage_links:
             - { uri: 'internal:#whom', title: 'For whom?', options: {  } }
             - { uri: 'internal:#solution', title: Solution, options: {  } }
@@ -364,16 +364,14 @@ field_landingpage_paragraphs:
     -
         type: landingpage_textarea
         field_landingpage_display: default
+        field_landingpage_skin:
+            - 'padding-top: 4em;'
         field_landingpage_textarea:
             - { value: "<h2 class=\"text-align-center\"><strong>Want to learn more?</strong></h2>\n", format: full_html }
-    -
-        type: landingpage_grid
-        field_landingpage_display: two_columns
-        field_landingpage_grid:
-            - { type: landingpage_image, field_landingpage_display: clean, field_landingpage_image: [{ alt: '', title: '', width: '1200', height: '400', image: 16_1.png }] }
-            - { type: landingpage_textarea, field_landingpage_display: clean, field_landingpage_textarea: [{ value: "<p><strong>Tom Guidotti</strong></p>\r\n\r\n<p>VP of Business Development</p>\r\n\r\n<p>484.682.5151</p>\r\n\r\n<p><a href=\"mailto:tom@speedandfunction.com\">tom@speedandfunction.com</a></p>\r\n", format: full_html }] }
-        field_landingpage_skin:
-            - 'XXL Paddings [xxl_paddings]'
-            - 'Fix Mobile Align [fix_mobile_align]'
-            - 'Left Border [left_border]'
         field_paragraph_anchor: contact
+    -
+        type: landingpage_contactform_textarea
+        field_landingpage_contactform: feedback
+        field_landingpage_display: right
+        field_landingpage_textarea:
+            - { value: "<p><strong>Tom Guidotti</strong></p>\n\n<p>VP of Business Development</p>\n\n<p>484.682.5151</p>\n\n<p><a href=\"mailto:tom@speedandfunction.com\">tom@speedandfunction.com</a></p>\n", format: basic_html }

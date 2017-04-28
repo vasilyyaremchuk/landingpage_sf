@@ -10,3 +10,4 @@ dependencies:
   - landingpage:landingpage_textarea
   - landingpage:landingpage_image
   - landingpage:landingpage_grid
+  - landingpage:landingpage_contactform_textarea
