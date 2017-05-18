@@ -31,7 +31,7 @@ field_landingpage_paragraphs:
             - 'background-color: #FFFFFF;'
             - 'Fix Mobile [fix_mobile]'
         field_landingpage_textarea:
-            - { value: "<h1 class=\"text-align-center\">s<em>&amp;</em>franchise</h1>\r\n\r\n<h3 class=\"text-align-center\"><strong>Software development business as a service</strong></h3>\r\n\r\n<p class=\"text-align-center\">Open and grow your own software development company</p>\r\n", format: full_html }
+            - { value: "<h1 class=\"text-align-center\"><strong>Software development business </strong></h1>\r\n\r\n<h1 class=\"text-align-center\"><strong>as a service</strong></h1>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p class=\"text-align-center\">Open and grow your own software development company</p>\r\n<p>&nbsp;</p>\r\n<p class=\"text-align-center\"><a class=\"btn btn-primary btn-lg\" href=\"#contact\">Let’s talk</a></p>\r\n", format: full_html }
     -
         type: landingpage_textarea
         field_landingpage_display: default
@@ -50,6 +50,8 @@ field_landingpage_paragraphs:
         field_landingpage_skin:
             - 'Blue EM [blue_em]'
             - 'XL Paddings [xl_paddings]'
+            - 'color: #000000;'
+            - 'background-color: #FFFFFF;'
     -
         type: landingpage_textarea
         field_landingpage_display: default
@@ -79,10 +81,10 @@ field_landingpage_paragraphs:
         type: landingpage_grid
         field_landingpage_display: two_columns
         field_landingpage_grid:
-            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'SAVE EFFORT', title: '', width: '400', height: '400', image: 3_1.png }], field_landingpage_textarea: [{ value: "<p><strong>SAVE EFFORT</strong> by guiding you how to build and grow a technology company</p>\n", format: basic_html }] }
-            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'MAKE MONEY', title: '', width: '400', height: '400', image: 3_2.png }], field_landingpage_textarea: [{ value: "<p><strong>MAKE MONEY</strong> by monetizing your existing network</p>\n", format: basic_html }] }
-            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'ENJOY WORK', title: '', width: '400', height: '400', image: 3_3.png }], field_landingpage_textarea: [{ value: "<p><strong>ENJOY WORK</strong> by focusing on what you do best, and minimizing the legwork</p>\n", format: basic_html }] }
-            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'BECOME SUCCESSFUL', title: '', width: '400', height: '400', image: 3_4.png }], field_landingpage_textarea: [{ value: "<p><strong>BECOME SUCCESSFUL</strong> by building a company around your passion and expertise</p>\n", format: basic_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'SAVE EFFORT', title: '', width: '400', height: '400', image: 3_1.png }], field_landingpage_textarea: [{ value: "<p align=\"center\"><strong>SAVE EFFORT</strong></p>\r\n\r\n<p align=\"center\">by guiding you how to build and grow a technology company</p>\r\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'MAKE MONEY', title: '', width: '400', height: '400', image: 3_2.png }], field_landingpage_textarea: [{ value: "<p align=\"center\"><strong>MAKE MONEY</strong></p>\r\n\r\n<p align=\"center\">by monetizing your existing network</p>\r\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'ENJOY WORK', title: '', width: '400', height: '400', image: 3_3.png }], field_landingpage_textarea: [{ value: "<p align=\"center\"><strong>ENJOY WORK</strong></p>\r\n\r\n<p align=\"center\">by focusing on what you do best, and minimizing the legwork</p>\r\n", format: full_html }] }
+            - { type: landingpage_image_textarea, field_landingpage_display: clean, field_landingpage_image: [{ alt: 'BECOME SUCCESSFUL', title: '', width: '400', height: '400', image: 3_4.png }], field_landingpage_textarea: [{ value: "<p align=\"center\"><strong>BECOME SUCCESSFUL</strong></p>\r\n\r\n<p align=\"center\">by building a company around your passion and expertise</p>\r\n", format: full_html }] }
         field_landingpage_skin:
             - 'Blue STRONG [blue_strong]'
             - 'Font small [font_small]'
@@ -366,8 +368,9 @@ field_landingpage_paragraphs:
         field_landingpage_display: default
         field_landingpage_skin:
             - 'padding-top: 4em;'
+            - 'padding-bottom: 4em;'
         field_landingpage_textarea:
-            - { value: "<h2 class=\"text-align-center\"><strong>Want to learn more?</strong></h2>\n", format: full_html }
+            - { value: "<h3 class=\"text-align-center\"><strong>We will provide a free 60 minute consultation upon request</strong></h3>\n\n\n<h4 class=\"text-align-center\">Submit your information below and we will get back to you shortly</h4>\n", format: full_html }
         field_paragraph_anchor: contact
     -
         type: landingpage_contactform_textarea

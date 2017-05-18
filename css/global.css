@@ -1,6 +1,6 @@
 h1 {
-    font-size: 600%;
-    line-height: 200%;
+    font-size: 500%;
+    line-height: 120%;
 }
 
 h2 {
@@ -11,8 +11,21 @@ h3 {
     font-size: 250%;
 }
 
+h4 {
+    font-size: 180%;
+    line-height: 120%;
+}
+
 p {
     font-size: 200%;
+}
+
+.paragraph--type--landingpage-image-textarea ul {
+  padding-left: 1.3em;
+}
+
+.paragraph--type--landingpage-contactform-textarea #edit-preview {
+  display: none;
 }
 
 .blue_em em, .blue_strong strong {
